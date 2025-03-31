@@ -55,5 +55,7 @@ public class ViewFlipperActivity extends AppCompatActivity {
         Animation slide_in = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_in_right);
         Animation slide_out = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_out_right);
 
+        viewFlipperMain.setInAnimation(slide_in);
+        viewFlipperMain.setOutAnimation(slide_out);
     }
 }
