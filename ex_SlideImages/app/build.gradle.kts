@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.slideimages_viewflipper"
+    namespace = "com.example.ex_slideimages"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.slideimages_viewflipper"
+        applicationId = "com.example.ex_slideimages"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -41,6 +41,15 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    implementation("com.github.bumptech.glide:glide:4.15.1")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
+    implementation(libs.glide)
+    implementation(libs.constraintlayout)
+    implementation(libs.circleindicator)
+    implementation(libs.retrofit)
+    implementation ("com.github.smarteist:Android-Image-Slider:1.4.0")
+    implementation(libs.converter)
+    implementation(libs.gson)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+
 }

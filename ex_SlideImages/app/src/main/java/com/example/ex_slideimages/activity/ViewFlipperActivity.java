@@ -1,4 +1,4 @@
-package com.example.slideimages_viewflipper;
+package com.example.ex_slideimages.activity;
 
 import android.os.Bundle;
 import android.view.animation.Animation;
@@ -14,6 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.bumptech.glide.Glide;
+import com.example.ex_slideimages.R;
 
 import java.util.ArrayList;
 import java.util.List;

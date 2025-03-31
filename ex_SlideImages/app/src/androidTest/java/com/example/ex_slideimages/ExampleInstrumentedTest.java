@@ -1,4 +1,4 @@
-package com.example.slideimages_viewflipper;
+package com.example.ex_slideimages;
 
 import android.content.Context;
 
